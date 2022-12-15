@@ -70,12 +70,14 @@
   .demo-card-square.mdl-card {
     width: 200px;
     height: 200px;
+    
   }
 
   .demo-card-square>.mdl-card__title {
-    color: #fff;
+    color: white;
     background:
-      url('https://cdn.pixabay.com/photo/2016/11/26/13/16/shampoo-1860642_960_720.png')  bottom right 15% no-repeat #46B6AC;
+      url('https://cdn.pixabay.com/photo/2018/06/20/06/21/cosmetics-3485914_960_720.jpg') bottom right 15% no-repeat #46B6AC;
+      background-size:100px 100px;
   }
 
 
@@ -129,7 +131,7 @@
 }
 
 .category-class{
-    height: 100; margin: 20px;
+    height: 100; margin: 13px;
 }
 
 .category-class img{
@@ -182,4 +184,14 @@
 
 .category-dropdown:hover .dropdown-content2 {
   display: block;
+}
+
+.more-details{
+  font-size: 14px;
+  color: black;
+}
+
+.product-image{
+  height: 300px;
+  width: 300px;
 }
