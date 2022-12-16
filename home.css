@@ -195,3 +195,17 @@
   height: 300px;
   width: 300px;
 }
+.cartfooter a{
+color: rgb(93, 92, 92);
+
+}
+.colorgreen{
+  color: green;
+}
+.floatright{
+  float: right;
+}
+
+.anchorblue{
+  color: blue;
+}

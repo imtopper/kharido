@@ -1,0 +1,83 @@
+<html>
+<title>Kharido Shopping App</title>
+<!-- Uses a transparent header that draws on top of the layout's background -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<link rel="stylesheet" href="home.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body style="background-color: rgb(237, 230, 230);">
+  <!-- The drawer is always open in large screens. The header is always shown,
+  even in small screens. -->
+
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <div class="mdl-layout-spacer">
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Become a Seller</a>
+          <div class="dropdown">
+            <button class="dropbtn">More
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Notification preferances</a>
+              <a href="#">24*7 customer care</a>
+              <a href="#">Advertise</a>
+              <a href="#">Download App</a>
+            </div>
+          </div>
+          <a class="mdl-navigation__link" href="cart.html">Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          <!-- Raised button -->
+            <button class="mdl-button mdl-js-button mdl-button--raised">
+              Login
+            </button>
+          
+        </nav>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+        mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--5-col">
+        <img src="https://img.freepik.com/free-vector/access-control-system-abstract-concept-illustration-security-system-authorize-entry-login-credentials-electronic-access-password-pass-phrase-pin-verification_335657-3373.jpg?w=740&t=st=1671179593~exp=1671180193~hmac=fb03b112ed0207cb59783622a4084938591eb1bfdd2d66a3927de7e78cdd541a" style="height: 500px;" alt="">
+    </div>
+
+    <div class="mdl-cell mdl-cell--7-col">
+        <!-- Textfield with Floating Label -->
+
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Enter Email/Mobile number</label>
+            </div>
+        </form>
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Enter Password</label>
+            </div>
+            <a href="" class="anchorblue">Forgot?</a> 
+            <p> By continuing, you agree to Flipkart's <a href="" class="anchorblue">Terms of Use </a> and <a
+                href="" class="anchorblue" >Privacy Policy</a></p>
+        </form>
+
+  
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "status":"Success",
+    "products":[
+        {
+            "id":"101",
+            "name":"H&S Shampoo",
+            "review":3.5,
+            "description":"Hair care shampoo, Mint fragrance",
+            "sold by":"pappu store",
+            "feedback":"A very nice shampoo"
+        },
+        {
+            "id":"102",
+            "name":"Denim jacket",
+            "review":4.5,
+            "description":"Roadster jacket",
+            "sold by":"pappu store",
+            "feedback":"A very nice shampoo"
+        }
+    ]
+}

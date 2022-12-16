@@ -9,32 +9,66 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body style="background-color:rgb(237, 230, 230);">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <div class="mdl-layout-spacer">
+            <!-- Navigation -->
+            <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="">Become a Seller</a>
+              <div class="dropdown">
+                <button class="dropbtn">More
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Notification preferances</a>
+                  <a href="#">24*7 customer care</a>
+                  <a href="#">Advertise</a>
+                  <a href="#">Download App</a>
+                </div>
+              </div>
+              <a class="mdl-navigation__link" href="cart.html">Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </nav>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+            mdl-textfield--floating-label mdl-textfield--align-right">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Product Detail -->
     <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--5-col">
             <div class="product-image" >
-                <img src="https://cdn.pixabay.com/photo/2018/06/20/06/21/cosmetics-3485914_960_720.jpg" style="width: 535px;" alt="">
+                <img src="https://cdn.pixabay.com/photo/2018/06/20/06/21/cosmetics-3485914_960_720.jpg" style="width: 535px;border: 1px solid rgb(188, 183, 183);" alt="">
             </div>
                     <div class="mdl-grid">
                     <div class="mdl-cell mdl-cell--6-col">
-                        <img src="./asset/Addtocart.png" style="float: right;" alt="">
+                        <a href="cart.html"><img src="./asset/Addtocart.png" class="floatright" style="padding-top: 55px;" alt=""></a>
                     </div>
                     <div class="mdl-cell mdl-cell--6-col">
-                        <img src="./asset/Buybow.png" style="float: left;" alt="">
+                        <img src="./asset/Buybow.png" style="float: left; padding-top: 55px;" alt="">
                     </div>
                 </div>
         </div>
 
         <div class="mdl-cell mdl-cell--7-col">
            <p style="font-size: 20px;"> TRESemme HFD Shampoo 580ml & Conditioner 190ml  (770 ml)</p>
-           <p style="font-size: 24px;"> <b>₹671</b> </p><strike>₹899</strike> <p style="color: green;"> 25% off</p>
+           <p style="color: rgb(137, 137, 137);"> 327 Ratings & 16 Reviews</p>
+           <p class="colorgreen">Special Offer</p>
+           <p style="font-size: 24px;"> <b>₹494</b> </p><strike>₹899</strike> <p class="colorgreen"> 45% off</p>
            <p style="font-size: 16px;">Available Offers</p>
-           <p> <b> Partner Offer </b> Buy this product and get upto ₹250 off on Flipkart Furniture <a href="#" style="color: blue;">Know more</a></p>
-           <p> <b> Partner Offer </b> Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500* <a href="#" style="color: blue;">Know more</a></p>
-           <p> <b> Bank Offer </b> 10% instant discount on IDFC FIRST Credit Card EMI Trxns, up to ₹3000 on orders of ₹5,000 and above <a href="#" style="color: blue;">T&C</a></p>
-           <p> <b> Bank Offer </b> 5% Cashback on Flipkart Axis Bank Card <a href="#" style="color: blue;">T&C</a></p>
-           <a href="#">View 1 more offer</a>
-           <i class="fa fa-cart-shopping"></i>
+           <p><i class="fa fa-tag" aria-hidden="true"></i> <b> Partner Offer </b> Buy this product and get upto ₹250 off on Flipkart Furniture <a href="#" class="anchorblue">Know more</a></p>
+           <p><i class="fa fa-tag" aria-hidden="true"></i> <b> Partner Offer </b> Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500* <a href="#" class="anchorblue">Know more</a></p>
+           <p><i class="fa fa-tag" aria-hidden="true"></i> <b> Bank Offer </b> 10% instant discount on IDFC FIRST Credit Card EMI Trxns, up to ₹3000 on orders of ₹5,000 and above <a href="#" class="anchorblue">T&C</a></p>
+           <p><i class="fa fa-tag" aria-hidden="true"></i> <b> Bank Offer </b> 5% Cashback on Flipkart Axis Bank Card <a href="#" class="anchorblue">T&C</a></p>
+           <a href="#" class="anchorblue">View 1 more offer</a>
         </div>
                     
     </div>
