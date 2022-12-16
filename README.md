@@ -1,2 +1,2 @@
 # kharido
- kharido lightweight shoping app
+ kharido lightweight shopping app
