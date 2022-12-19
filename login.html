@@ -31,7 +31,7 @@
           </div>
           <a class="mdl-navigation__link" href="cart.html">Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
           <!-- Raised button -->
-            <button class="mdl-button mdl-js-button mdl-button--raised">
+            <button class="mdl-button mdl-js-button mdl-button--raised " id="show-dialog" type="button">
               Login
             </button>
           
@@ -49,14 +49,68 @@
     </div>
   </header>
 
+
+  <dialog class="mdl-dialog" style="height:500px; width: 650px;">
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col" >
+          <h3 style="color: blue;"> <b>Login</b></h3>
+          <p style="font-size: 16px;">Get access to your Orders, Wishlist and Recommendations</p>
+      </div>
+      <div class="mdl-cell mdl-cell--8-col">
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="sample3">
+          <label class="mdl-textfield__label" for="sample3">Enter Email/Mobile number</label>
+          </div>
+      </form>
+      <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="sample3">
+          <label class="mdl-textfield__label" for="sample3">Enter Password</label>
+          </div>
+          <a href="" class="anchorblue">Forgot?</a> 
+          <p> By continuing, you agree to Flipkart's <a href="" class="anchorblue">Terms of Use </a> and <a
+              href="" class="anchorblue" >Privacy Policy</a></p>
+      </form>
+
+      <a href=""><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >Login
+      </button></a>
+      <p>OR</p>
+      <a href=""><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >Request OTP
+      </button></a>
+      <br>
+      <br>
+      <a href="" class="anchorblue">New to Flipkart? Create an Account</a>
+      <div class="mdl-dialog__actions">
+        <button type="button" class="mdl-button close">Close</button>
+      </div>
+
+      </div>
+    </div>
+
+
+  </dialog>
+  <script>
+    var dialog = document.querySelector('dialog');
+    var showDialogButton = document.querySelector('#show-dialog');
+    if (! dialog.showModal) {
+      dialogPolyfill.registerDialog(dialog);
+    }
+    showDialogButton.addEventListener('click', function() {
+      dialog.showModal();
+    });
+    dialog.querySelector('.close').addEventListener('click', function() {
+      dialog.close();
+    });
+  </script>
   
-<div class="mdl-grid">
+<!--<div class="mdl-grid">
     <div class="mdl-cell mdl-cell--5-col">
         <img src="https://img.freepik.com/free-vector/access-control-system-abstract-concept-illustration-security-system-authorize-entry-login-credentials-electronic-access-password-pass-phrase-pin-verification_335657-3373.jpg?w=740&t=st=1671179593~exp=1671180193~hmac=fb03b112ed0207cb59783622a4084938591eb1bfdd2d66a3927de7e78cdd541a" style="height: 500px;" alt="">
     </div>
 
     <div class="mdl-cell mdl-cell--7-col">
-        <!-- Textfield with Floating Label -->
+       
 
         <form action="#">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -76,7 +130,7 @@
 
   
     </div>
-</div>
+</div>-->
 
 
 </body>

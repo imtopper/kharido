@@ -17,46 +17,54 @@
       <div class="mdl-layout-spacer">
         <!-- Navigation -->
         <nav class="mdl-navigation">
+          <img src="./asset/1x/kharido.png" class="logo" alt="">
           <a class="mdl-navigation__link" href="">Become a Seller</a>
           <div class="dropdown">
             <button class="dropbtn">More
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-               <i class="fa fa-bell fa-lg" style="color: blue;" aria-hidden="true"></i><a href="#">Notification preferances</a>
+              <i class="fa fa-bell fa-lg" style="color: blue;" aria-hidden="true"></i><a href="#">Notification
+                preferances</a>
               <hr style="color: grey; height: 1px;">
-              <i class="fa fa-calendar-check-o fa-lg" style="color: blue;" aria-hidden="true"></i><a href="#">24*7 customer care</a>
+              <i class="fa fa-calendar-check-o fa-lg" style="color: blue;" aria-hidden="true"></i><a href="#">24*7
+                customer care</a>
               <hr style="color: grey; height: 1px;">
               <i class="fa fa-line-chart fa-lg" style="color: blue;" aria-hidden="true"></i><a href="#">Advertise</a>
               <hr style="color: grey; height: 1px;">
               <i class="fa fa-download fa-lg" style="color: blue;" aria-hidden="true"></i><a href="#">Download App</a>
             </div>
           </div>
-          <a class="mdl-navigation__link" href="cart.html">Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          <a class="mdl-navigation__link" href="cart.html">Cart <i class="fa fa-shopping-cart"
+              aria-hidden="true"></i></a>
 
 
           <!-- Login Button -->
 
-          <div> <div class="category-dropdown">
-            <a href="login.html"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >Login
-            </button></a>
-            <div class="dropdown-content2">
-              <a href="#">New customer? </a> 
-              <hr style="color: grey; height: 1px;">
-              <i class="fa fa-user-circle-o fa-lg" style="color:blue" aria-hidden="true"></i><a href="#">My Profile</a>
-              <hr style="color: grey; height: 1px;">
-              <i class="fa fa-plus-circle fa-lg" style="color:blue" aria-hidden="true"></i></i><a href="#">Flipkart Plus Zone</a>
-              <hr style="color: grey; height: 1px;">
-              <i class="fa fa-shopping-bag fa-lg" style="color:blue" aria-hidden="true"></i></i><a href="#">Orders</a>
-              <hr style="color: grey; height: 1px;">
-              <i class="fa fa-heart fa-lg" style="color:blue" aria-hidden="true"></i><a href="#">Wishlist</a>
-              <hr style="color: grey; height: 1px;">
-              <i class="fa fa-clone fa-lg"  style="color:blue" aria-hidden="true"></i><a href="#">Rewards</a>
-              <hr style="color: grey; height: 1px;">
-              <i class="fa fa-gift fa-lg" style="color:blue" aria-hidden="true"></i><a href="#">Gift Cards</a>
+          <div>
+            <div class="category-dropdown">
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                id="show-dialog" type="button">Login
+              </button>
+              <div class="dropdown-content2">
+                <a href="#">New customer? </a>
+                <hr style="color: grey; height: 1px;">
+                <i class="fa fa-user-circle-o fa-lg" style="color:blue" aria-hidden="true"></i><a href="#">My
+                  Profile</a>
+                <hr style="color: grey; height: 1px;">
+                <i class="fa fa-plus-circle fa-lg" style="color:blue" aria-hidden="true"></i></i><a href="#">Flipkart
+                  Plus Zone</a>
+                <hr style="color: grey; height: 1px;">
+                <i class="fa fa-shopping-bag fa-lg" style="color:blue" aria-hidden="true"></i></i><a href="#">Orders</a>
+                <hr style="color: grey; height: 1px;">
+                <i class="fa fa-heart fa-lg" style="color:blue" aria-hidden="true"></i><a href="#">Wishlist</a>
+                <hr style="color: grey; height: 1px;">
+                <i class="fa fa-clone fa-lg" style="color:blue" aria-hidden="true"></i><a href="#">Rewards</a>
+                <hr style="color: grey; height: 1px;">
+                <i class="fa fa-gift fa-lg" style="color:blue" aria-hidden="true"></i><a href="#">Gift Cards</a>
+              </div>
             </div>
           </div>
-        </div>
 
         </nav>
       </div>
@@ -72,70 +80,434 @@
     </div>
   </header>
 
-  
+  <!--Login PopUP-->
 
+  <dialog class="mdl-dialog pop_up">
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col">
+        <h3 style="color: blue;"> <b>Login</b></h3>
+        <p style="font-size: 16px;">Get access to your Orders, Wishlist and Recommendations</p>
+        <img
+          src="https://img.freepik.com/free-photo/online-payment-security-concept-3d-phone-bill_107791-16722.jpg?w=740&t=st=1671434394~exp=1671434994~hmac=7e2d9a930ab4d97674505a1223400df40f37802e55957a9e29000b05fe889c04"
+          style="height: 180px; width: 180px;" alt="">
 
+      </div>
+      <div class="mdl-cell mdl-cell--8-col">
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Enter Email/Mobile number</label>
+          </div>
+        </form>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Enter Password</label>
+          </div>
+          <a href="" class="anchorblue">Forgot?</a>
+          <p> By continuing, you agree to Flipkart's <a href="" class="anchorblue">Terms of Use </a> and <a href=""
+              class="anchorblue">Privacy Policy</a></p>
+        </form>
 
- 
-
-  <!-- Footer -->
-    <footer class="mdl-mega-footer">
-      <div class="mdl-mega-footer__middle-section">
-
-        <div class="mdl-mega-footer__drop-down-section">
-          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer__heading">Features</h1>
-          <ul class="mdl-mega-footer__link-list">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Updates</a></li>
-          </ul>
-        </div>
-
-        <div class="mdl-mega-footer__drop-down-section">
-          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer__heading">Details</h1>
-          <ul class="mdl-mega-footer__link-list">
-            <li><a href="#">Specs</a></li>
-            <li><a href="#">Tools</a></li>
-            <li><a href="#">Resources</a></li>
-          </ul>
-        </div>
-
-        <div class="mdl-mega-footer__drop-down-section">
-          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer__heading">Technology</h1>
-          <ul class="mdl-mega-footer__link-list">
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Patterns</a></li>
-            <li><a href="#">Usage</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contracts</a></li>
-          </ul>
-        </div>
-
-        <div class="mdl-mega-footer__drop-down-section">
-          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-          <h1 class="mdl-mega-footer__heading">FAQ</h1>
-          <ul class="mdl-mega-footer__link-list">
-            <li><a href="#">Questions</a></li>
-            <li><a href="#">Answers</a></li>
-            <li><a href="#">Contact us</a></li>
-          </ul>
+        <button
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >Login
+          </button>
+        <p>OR</p>
+        <button
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Request OTP
+          </button>
+        <br>
+        <br>
+        <a href="" class="anchorblue">New to Flipkart? Create an Account</a>
+        <div class="mdl-dialog__actions">
+          <button type="button" class="mdl-button close" style="background-color: rgb(209, 198, 198);">Close</button>
         </div>
 
       </div>
+    </div>
+  </dialog>
 
-      <div class="mdl-mega-footer__bottom-section">
-        <div class="mdl-logo">Title</div>
+  <script>
+    var dialog = document.querySelector('dialog');
+    var showDialogButton = document.querySelector('#show-dialog');
+    if (!dialog.showModal) {
+      dialogPolyfill.registerDialog(dialog);
+    }
+    showDialogButton.addEventListener('click', function () {
+      dialog.showModal();
+    });
+    dialog.querySelector('.close').addEventListener('click', function () {
+      dialog.close();
+    });
+  </script>
+
+  <!--Login PopUp End-->
+
+  <main class="mdl-layout__content">
+    <div class="page-content">
+
+      <div class="mdl-grid">
+        <div class="category-class">
+          <img src="https://cdn.pixabay.com/photo/2020/05/25/02/35/groceries-5216715_960_720.jpg" alt="">
+          <div style="text-align:center;">Grocery</div>
+        </div>
+        <div class="category-class">
+          <img src="https://cdn.pixabay.com/photo/2014/08/05/10/27/iphone-410311_960_720.jpg" alt="">
+          <div style="text-align:center;">Mobile</div>
+        </div>
+        <div class="category-class">
+          <img src="https://cdn.pixabay.com/photo/2017/08/06/17/58/people-2594683_960_720.jpg" alt="">
+          <div>
+            <div class="category-dropdown">
+              <button class="dropdown2">Fashion
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content2">
+                <a href="#">Men's Top Wear</a>
+                <a href="#">Men's Bottom Wear</a>
+                <a href="#">Women Ethnic</a>
+                <a href="#">Women Western</a>
+                <a href="#">Men Footwear</a>
+                <a href="#">Women Footwear</a>
+                <a href="#">Watches & Accessories</a>
+                <a href="#">Kids</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category-class">
+          <img src="https://cdn.pixabay.com/photo/2021/11/16/15/35/technology-6801334_960_720.jpg" alt="">
+          <div>
+            <div class="category-dropdown">
+              <button class="dropdown2" style="text-align: center;">Electronics
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content2">
+                <a href="#">Audio</a>
+                <a href="#">Electronics GST Store</a>
+                <a href="#">Cameras & Accessories</a>
+                <a href="#">Computer Peripherals</a>
+                <a href="#">Gaming</a>
+                <a href="#">Health and Personal Care</a>
+                <a href="#">Laptop Accessories</a>
+                <a href="#">Laptop and Desktop</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category-class">
+          <img src="https://cdn.pixabay.com/photo/2013/09/21/14/30/sofa-184551_960_720.jpg" alt="">
+          <div>
+            <div class="category-dropdown">
+              <button class="dropdown2" style="text-align: center;">Home
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content2">
+                <a href="#">home Furnishing</a>
+                <a href="#">Furniture Studio</a>
+                <a href="#">Living Room Furniture</a>
+                <a href="#">Kitchen & Dining</a>
+                <a href="#">Bedroom Furniture</a>
+                <a href="#">Home Decor</a>
+                <a href="#">Tools & Utility</a>
+                <a href="#">Workspace Furniture</a>
+                <a href="#">Lighting & Electricals</a>
+                <a href="#">Space Saving Furniture</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category-class">
+          <img
+            src="https://media.istockphoto.com/id/466201823/photo/home-appliances-refrigerator-microwave-and-washing-maching.jpg?s=612x612&w=is&k=20&c=qPcERhF-Ej8pdBJ2BGxmpJ2Xw12yyYvaqGnFo6saN8k="
+            alt="">
+          <div style="text-align:center;">Appliances</div>
+        </div>
+        <div class="category-class">
+          <img src="https://cdn.pixabay.com/photo/2018/05/21/18/33/emotions-3419025_960_720.jpg" alt="">
+          <div style="text-align:center;">Travel</div>
+        </div>
+        <div class="category-class">
+          <img src="https://cdn.pixabay.com/photo/2016/12/09/04/02/presents-1893640_960_720.jpg" alt="">
+          <div style="text-align:center;">Top Offers</div>
+        </div>
+        <div class="category-class">
+          <img src="https://cdn.pixabay.com/photo/2016/08/23/13/12/knitting-1614283_960_720.jpg" alt="">
+          <div>
+            <div class="category-dropdown">
+              <button class="dropdown2" style="text-align: center;">Toys
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content2">
+                <a href="#">Beauty and Personal Care </a>
+                <a href="#">Men's Grooming</a>
+                <a href="#">Food & Drinks</a>
+                <a href="#">Nutrition & Health Care</a>
+                <a href="#">Baby Care</a>
+                <a href="#">Toys & School Supplies</a>
+                <a href="#">Sports & Fitness</a>
+                <a href="#">Books</a>
+                <a href="#">Music</a>
+                <a href="#">Auto Accessories</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category-class">
+          <img src="https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_960_720.jpg" alt="">
+          <div>
+            <div class="category-dropdown">
+              <button class="dropdown2" style="text-align: center;">Two Wheelers
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content2">
+                <a href="#">Petrol Vehicals</a>
+                <a href="#">Electric Vehicals</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div>
+        <div class="mySlides fade">
+          <img src="./asset/shop.jpg" style="height: 300px; width:100%;">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_960_720.jpg"
+            style="height: 300px; width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="https://cdn.pixabay.com/photo/2016/11/16/18/59/john-araujo-1829693_960_720.jpg"
+            style="height: 300px; width:100%">
+        </div>
+
+
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <div class="mdl-grid">
+        <!-- 1 -->
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">Shampoo</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Shampoo
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Up to 25% off
+              </a>
+              <br>
+              <a class="more-details" href="product_detail.html">More Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1 -->
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">Jacket</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Roadster Jacket
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Up to 30% off
+              </a>
+              <br>
+              <a class="more-details" href="product_detail.html">More Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1 -->
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">Jeans</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Skinny Jeans
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Up to 30% off
+              </a>
+              <br>
+              <a class="more-details" href="product_detail.html">More Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">Jeans</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Skinny Jeans
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Up to 25% off
+              </a>
+              <br>
+              <a class="more-details" href="product_detail.html">More Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">Jeans</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Skinny Jeans
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Up to 25% off
+              </a>
+              <br>
+              <a class="more-details" href="product_detail.html">More Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">Jeans</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Skinny Jeans
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Up to 25% off
+              </a>
+              <br>
+              <a class="more-details" href="product_detail.html">More Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">Jeans</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Skinny Jeans
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Up to 25% off
+              </a>
+              <br>
+              <a class="more-details" href="product_detail.html">More Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">Jeans</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Skinny Jeans
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Up to 25% off
+              </a>
+              <br>
+              <a class="more-details" href="product_detail.html">More Details</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <!-- end -->
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="mdl-mega-footer">
+    <div class="mdl-mega-footer__middle-section">
+
+      <div class="mdl-mega-footer__drop-down-section">
+        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+        <h1 class="mdl-mega-footer__heading">Features</h1>
         <ul class="mdl-mega-footer__link-list">
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Privacy & Terms</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Updates</a></li>
         </ul>
       </div>
 
-    </footer>
+      <div class="mdl-mega-footer__drop-down-section">
+        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+        <h1 class="mdl-mega-footer__heading">Details</h1>
+        <ul class="mdl-mega-footer__link-list">
+          <li><a href="#">Specs</a></li>
+          <li><a href="#">Tools</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+      </div>
+
+      <div class="mdl-mega-footer__drop-down-section">
+        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+        <h1 class="mdl-mega-footer__heading">Technology</h1>
+        <ul class="mdl-mega-footer__link-list">
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">Patterns</a></li>
+          <li><a href="#">Usage</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contracts</a></li>
+        </ul>
+      </div>
+
+      <div class="mdl-mega-footer__drop-down-section">
+        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+        <h1 class="mdl-mega-footer__heading">FAQ</h1>
+        <ul class="mdl-mega-footer__link-list">
+          <li><a href="#">Questions</a></li>
+          <li><a href="#">Answers</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="mdl-mega-footer__bottom-section">
+      <div class="mdl-logo">Title</div>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy & Terms</a></li>
+      </ul>
+    </div>
+
+  </footer>
 </body>
 <script>
   let slideIndex = 0;
