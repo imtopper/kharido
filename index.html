@@ -3,7 +3,7 @@
 <!-- Uses a transparent header that draws on top of the layout's background -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="stylesheet/home.css">
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -95,7 +95,7 @@
       <div class="mdl-cell mdl-cell--8-col">
         <form action="#">
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input class="mdl-textfield__input" type="text" id="sample3">
+            <input class="mdl-textfield__input" type="text" id="sample3" >
             <label class="mdl-textfield__label" for="sample3">Enter Email/Mobile number</label>
           </div>
         </form>
@@ -109,13 +109,11 @@
               class="anchorblue">Privacy Policy</a></p>
         </form>
 
-        <button
-            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >Login
-          </button>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Login
+        </button>
         <p>OR</p>
-        <button
-            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Request OTP
-          </button>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Request OTP
+        </button>
         <br>
         <br>
         <a href="" class="anchorblue">New to Flipkart? Create an Account</a>
@@ -269,9 +267,9 @@
         </div>
       </div>
 
-
-      <div>
-        <div class="mySlides fade">
+      <!--Slides-->
+      <div id="bannershow">
+        <!--<div class="mySlides fade">
           <img src="./asset/shop.jpg" style="height: 300px; width:100%;">
         </div>
 
@@ -283,164 +281,19 @@
         <div class="mySlides fade">
           <img src="https://cdn.pixabay.com/photo/2016/11/16/18/59/john-araujo-1829693_960_720.jpg"
             style="height: 300px; width:100%">
-        </div>
+        </div> -->
 
-
+<!-- 
         <div style="text-align:center">
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
-        </div>
+          <span class="dot"></span>
+        </div> -->
       </div>
 
-      <div class="mdl-grid">
+      <div class="mdl-grid" id="productsshow">
         <!-- 1 -->
-        <div class="mdl-cell mdl-cell--3-col">
-          <div class="demo-card-square mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__title mdl-card--expand">
-              <h2 class="mdl-card__title-text">Shampoo</h2>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Shampoo
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Up to 25% off
-              </a>
-              <br>
-              <a class="more-details" href="product_detail.html">More Details</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 1 -->
-        <div class="mdl-cell mdl-cell--3-col">
-          <div class="demo-card-square mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__title mdl-card--expand">
-              <h2 class="mdl-card__title-text">Jacket</h2>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Roadster Jacket
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Up to 30% off
-              </a>
-              <br>
-              <a class="more-details" href="product_detail.html">More Details</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 1 -->
-        <div class="mdl-cell mdl-cell--3-col">
-          <div class="demo-card-square mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__title mdl-card--expand">
-              <h2 class="mdl-card__title-text">Jeans</h2>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Skinny Jeans
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Up to 30% off
-              </a>
-              <br>
-              <a class="more-details" href="product_detail.html">More Details</a>
-            </div>
-          </div>
-        </div>
-        <!-- 1 -->
-        <div class="mdl-cell mdl-cell--3-col">
-          <div class="demo-card-square mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__title mdl-card--expand">
-              <h2 class="mdl-card__title-text">Jeans</h2>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Skinny Jeans
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Up to 25% off
-              </a>
-              <br>
-              <a class="more-details" href="product_detail.html">More Details</a>
-            </div>
-          </div>
-        </div>
-        <!-- 1 -->
-        <div class="mdl-cell mdl-cell--3-col">
-          <div class="demo-card-square mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__title mdl-card--expand">
-              <h2 class="mdl-card__title-text">Jeans</h2>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Skinny Jeans
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Up to 25% off
-              </a>
-              <br>
-              <a class="more-details" href="product_detail.html">More Details</a>
-            </div>
-          </div>
-        </div>
-        <!-- 1 -->
-        <div class="mdl-cell mdl-cell--3-col">
-          <div class="demo-card-square mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__title mdl-card--expand">
-              <h2 class="mdl-card__title-text">Jeans</h2>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Skinny Jeans
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Up to 25% off
-              </a>
-              <br>
-              <a class="more-details" href="product_detail.html">More Details</a>
-            </div>
-          </div>
-        </div>
-        <!-- 1 -->
-        <div class="mdl-cell mdl-cell--3-col">
-          <div class="demo-card-square mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__title mdl-card--expand">
-              <h2 class="mdl-card__title-text">Jeans</h2>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Skinny Jeans
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Up to 25% off
-              </a>
-              <br>
-              <a class="more-details" href="product_detail.html">More Details</a>
-            </div>
-          </div>
-        </div>
-        <!-- 1 -->
-        <div class="mdl-cell mdl-cell--3-col">
-          <div class="demo-card-square mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__title mdl-card--expand">
-              <h2 class="mdl-card__title-text">Jeans</h2>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Skinny Jeans
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Up to 25% off
-              </a>
-              <br>
-              <a class="more-details" href="product_detail.html">More Details</a>
-            </div>
-          </div>
-        </div>
-
 
       </div>
 
@@ -508,27 +361,144 @@
     </div>
 
   </footer>
+
 </body>
+
 <script>
   let slideIndex = 0;
-  showSlides();
 
   function showSlides() {
     let i;
     let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
+    // let dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1 }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
+    if (slideIndex > slides.length) { slideIndex = 1}
+    // for (i = 0; i < dots.length; i++) {
+    //   dots[i].className = dots[i].className.replace(" active", "");
+    // }
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    // dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
+
+  async function showbanner() {
+    console.log("API CALL");
+
+    let response = await fetch('http://localhost:3000/homepage/banners/1') ;          //api for the get request
+    let data = await response.json();
+    console.log(data);
+    
+
+    let banner = (data['data'][0]['images']);
+    let bnrhtmlcode  = "";
+
+    for (let i = 0; i < banner.length; i++) {
+     
+      let b=banner[i];
+      
+      let temp= "<div class=\"mySlides fade\">"+
+                "<img src=\"" + b +
+                "\" style=\"height: 300px; object-fit: cover; width:100%;\"> </div>";
+
+        bnrhtmlcode = bnrhtmlcode + temp;
+    }
+
+    // console.log(bnrhtmlcode);
+    document.getElementById("bannershow").innerHTML = bnrhtmlcode;
+
+    // for (let i = 0; i < banner.length; i++) {
+      
+    //   let b=banner[i];
+
+    //   let temp= 
+    //     "<div style=\"text-align:center\">"
+    //       "<span class=\"dot\"></span>"
+    //       "<span class=\"dot\"></span>"
+    //       "<span class=\"dot\"></span>"
+    //     "</div>";
+
+      
+    // }
+
+    showSlides();
+
+
+  }
+
+  showbanner();
+
+
+  async function showHomeProducts() {
+    console.log("API CALL");
+
+    let response = await fetch('http://localhost:3000/products/')           //api for the get request
+    let data = await response.json();
+
+    let products = data['data'];
+
+    let productssh = document.getElementById("productsshow");
+
+
+    for (let i = 0; i < products.length; i++) {
+
+      let p = products[i];
+
+      let discount = dodiscount(p['price'], p['mrp']);
+      if (discount < 0)
+        discount = "";
+      else
+        discount = discount + "% off";
+
+      let temp = "  <div class=\"mdl-cell mdl-cell--3-col zoom\">" +
+        "<div class=\"demo-card-square mdl-card mdl-shadow--2dp\">" +
+        " <div class=\"mdl-card__title mdl-card--expand\">" +
+        "<img  style=\"height:200px\" src=\"" +   p['image'][0]   +"\">"+
+        "</div>" +
+        "<div class=\"mdl-card__supporting-text clipped\">" +
+        p['title'] +
+        "</div>" +
+        "<div class=\"mdl-card__actions mdl-card--border\">" +
+
+          "<div class=\"mdl-grid\">" +
+
+            "<div class=\"mdl-cell mdl-cell--6-col\">" +
+              "<p class=\"price\" style=\"color:black;\" >\₹" +
+                    p['price'] +
+                    "<font style=\"color:grey; font-size:13px\">\₹" +
+                    "<strike>" +
+                    p['mrp'] +
+                    "</strike>" +
+                    "</font>" +
+                    "</p>" +
+              "</div>"+
+
+              "<div class=\"mdl-cell mdl-cell--6-col\">" +
+                "<p style=\"color:green; float:right;\">" +
+                discount +
+                "</p>" +
+              "</div>"+
+
+          "</div>"+
+        "<p style=\"color:green;\">Top Discount on Sale</p>"+
+      " </div>" +
+        " </div>" +
+        " </div>"+
+        "";
+
+      productssh.innerHTML = productssh.innerHTML + temp;
+
+    }
+  }
+  function dodiscount(num1, num2) {
+    return (((num2 - num1) / num2) * 100).toFixed(0);
+  }
+
+
+  showHomeProducts();
+
 </script>
 
 </html>
